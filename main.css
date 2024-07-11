@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .hover{
+        @apply hover:scale-105 transition-all duration-300 cursor-pointer;
+    }
+
+    .nav-li{
+        @apply text-[#072125] text-lg cursor-pointer  hover:underline underline-offset-4 decoration-2 hover:text-[#F44335];
+    }
+
+    .card{
+        @apply bg-white px-4 py-6 rounded-lg md:w-[250px];
+    }
+
+    .card1{
+        @apply bg-[#2D3142] px-4 py-6 rounded-lg md:w-[250px];
+    }
+    .hover-p{
+        @apply hover:underline decoration-[#20484F] decoration-2 underline-offset-4 text-[#20484F];
+    }
+}
